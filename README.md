@@ -18,7 +18,7 @@ GateDigger's sudoku solver is a WFA capable of solving sudoku puzzles and counti
   - The run time scales with the number of solutions.
   - Will use parallelism unless disabled in code.
 - Count solutions: Counts the number of solutions to the current puzzle.
-  - The runtime scales with the number of solutions.
+  - The run time scales with the number of solutions.
   - Will use parallelism unless disabled in code.
 - Count givens: Counts the number of uniquely determined cells in the puzzle.
 - Generate: To be implemented.

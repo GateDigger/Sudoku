@@ -5,8 +5,8 @@ GateDigger's sudoku solver is a WFA capable of solving sudoku puzzles and counti
 
 ### Puzzle grid
 - The grid has a fixed set of allowed characters.
-  - Digits starting by 1 for grids of edge length < 10
-  - Digits starting by 0 and capital latin characters starting by A for grids of edge length >= 10
+  - Digits starting with 1 for grids of edge length < 10
+  - Digits starting with 0 and capital latin characters starting with A for grids of edge length >= 10
 - Select/unselect a cell in the grid by mouse-clicking on it.
   - Selected cell is highlighted by background color.
 - Add/remove a character to/from selected cell by typing it on your keyboard.

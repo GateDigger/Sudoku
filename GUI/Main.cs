@@ -146,6 +146,7 @@ namespace Sudoku.GUI
                 Location = controller.Containee.Location,
                 Size = controller.Containee.Size
             };
+            controller.Containee.Focus();
         }
 
         private void VShrinkGrid(object sender, EventArgs e)
@@ -160,6 +161,7 @@ namespace Sudoku.GUI
                 Location = controller.Containee.Location,
                 Size = controller.Containee.Size
             };
+            controller.Containee.Focus();
         }
 
         private void HExpandGrid(object sender, EventArgs e)
@@ -174,6 +176,7 @@ namespace Sudoku.GUI
                 Location = controller.Containee.Location,
                 Size = controller.Containee.Size
             };
+            controller.Containee.Focus();
         }
 
         private void VExpandGrid(object sender, EventArgs e)
@@ -188,6 +191,7 @@ namespace Sudoku.GUI
                 Location = controller.Containee.Location,
                 Size = controller.Containee.Size
             };
+            controller.Containee.Focus();
         }
     }
 }
